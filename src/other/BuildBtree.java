@@ -25,6 +25,7 @@ public class BuildBtree {
 	}
 	
 	/**
+	 * attention bug 
 	 *  recursion create one node
 	 * @param front string queue
 	 * @param middle string queue
