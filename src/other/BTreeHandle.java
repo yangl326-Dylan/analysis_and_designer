@@ -40,9 +40,9 @@ public class BTreeHandle {
 	}
 	
 	/**
-	 * pollLast() => stack去实现深度遍历，pollFirst() => queue去实现广度遍历。
+	 * pollLast() => stack  df,pollFirst() => queue  bf
 	 * @param root
-	 * @param flag 0 广度, 1 深度。
+	 * @param flag 0 breadth, 1 deep。
 	 */
 	public void bdfs(BinTree root, int flag) {
 		LinkedList linkedList = new LinkedList();

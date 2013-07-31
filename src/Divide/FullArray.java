@@ -19,7 +19,11 @@ public class FullArray {
 		// TODO Auto-generated method stub
 		int[] a = {1,2,3,4,5};
 		perm(a, 0, a.length);
-		
+		try{
+			
+		}finally{
+			
+		}
 
 	}
 	
@@ -34,9 +38,9 @@ public class FullArray {
 			Pprint.parray(a);
 		}
 		else{
-//			Pprint.p("--------------");
+			Pprint.p("--------------");
 			for (int i = k; i < n; i++) {
-//				Pprint.p("==");
+				Pprint.parray(a);
 				swap(a, k, i);
 				perm(a, k+1, n);
 				swap(a, k, i);
