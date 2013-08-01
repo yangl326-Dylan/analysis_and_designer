@@ -56,19 +56,28 @@ public class BTreeHandle {
 		
 	}
 	
+	public int result = 0;
+	public static int  getLongRoute(BinTree root) {
+		if(root == null)return 0;
+		return (getLength(root.lb)+getLength(root.rb));
+	}
 	
 	/**
 	 * 一个树的高度
 	 * @param bt
 	 * @return
 	 */
-	public int getLength(BinTree bt){
+	public static int getLength(BinTree bt){
 		if(bt == null) return 0;
 		int rlength = getLength(bt.rb);
 		int llength = getLength(bt.lb);
 		return 1+(llength> rlength?llength:rlength);
 	}
 	
+	/**
+	 * 中序遍历这棵树
+	 * @param bt
+	 */
 	public void midOrder(BinTree bt) {
 		if(bt == null) return;
 		if(bt.lb != null){
