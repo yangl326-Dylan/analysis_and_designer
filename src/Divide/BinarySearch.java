@@ -1,4 +1,4 @@
-package Divide;
+package divide;
 
 import utils.Pprint;
 
