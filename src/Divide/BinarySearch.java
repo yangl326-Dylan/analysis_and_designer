@@ -9,8 +9,8 @@ public class BinarySearch {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[] = {12,13,14,17,18,48,50,55};
-		Pprint.p(String.valueOf(binaryget(a,18)));
+		int a[] = {12};
+		Pprint.p(String.valueOf(binaryget(a,13)));
 	}
 
 	/**
@@ -28,9 +28,9 @@ public class BinarySearch {
 		while (left < right) {
 			int middle = (left + right)/2;
 			if(search > a[middle]){
-				left = middle;
+				left = middle+1;
 			}else if(search < a[middle]){
-				right = middle;
+				right = middle-1;
 			}else{
 				return middle;
 			}
