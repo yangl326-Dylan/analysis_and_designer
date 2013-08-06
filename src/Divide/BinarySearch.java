@@ -14,7 +14,7 @@ public class BinarySearch {
 	}
 
 	/**
-	 * binary get result; find the "search" No.;
+	 * binary get result; find the "search" index.;
 	 * 
 	 * @param a
 	 *            array
