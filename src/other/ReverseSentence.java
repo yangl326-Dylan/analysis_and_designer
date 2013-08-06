@@ -20,7 +20,7 @@ public class ReverseSentence {
 	}
 	
 	/**
-	 * 把倒叙的话写入b
+	 * 把倒叙的语句写入b
 	 * @param a
 	 * @param b
 	 */
