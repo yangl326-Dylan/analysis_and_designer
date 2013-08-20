@@ -10,6 +10,7 @@ package designer;
 public class SingleTon {
 
 	/**
+	 * 调用的时候创建实例 
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -21,6 +22,7 @@ public class SingleTon {
 	}
 	
 	public static SingleTon siTon= null;
+	//public static SingleTon siTon= new SingleTon();
 
 	private SingleTon() {
 	}
