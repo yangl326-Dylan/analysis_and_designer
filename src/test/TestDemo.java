@@ -3,6 +3,8 @@
  */
 package test;
 
+import other.SingleTon;
+
 /**
  * @author Administrator
  *
@@ -13,6 +15,7 @@ public class TestDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		placeQueens(0);
+		SingleTon pSingleTon = SingleTon.getInstance();
 	}
 	static int col4row[] = new int[8];
 	/**
